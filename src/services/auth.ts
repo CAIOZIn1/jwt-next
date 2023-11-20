@@ -1,4 +1,4 @@
-import { v4 as uuid } from 'uuid'
+import { v4 as uuid } from 'uuid';
 
 type SignInRequestData = {
   email: string;
@@ -13,9 +13,9 @@ export async function signInRequest(data: SignInRequestData) {
   return {
     token: uuid(),
     user: {
-      name: 'Diego Fernandes',
-      email: 'diego@rocketseat.com.br',
-      avatar_url: 'https://github.com/diego3g.png'
+      name: 'Caio Sella',
+      email: 'sellacaio3@gmail.com',
+      avatar_url: 'https://github.com/CAIOZIn1.png'
     }
   }
 }
@@ -25,9 +25,9 @@ export async function recoverUserInformation() {
 
   return {
     user: {
-      name: 'Diego Fernandes',
-      email: 'diego@rocketseat.com.br',
-      avatar_url: 'https://github.com/diego3g.png'
+      name: 'Caio Sella',
+      email: 'sellacaio3@gmail.com',
+      avatar_url: 'https://github.com/CAIOZIn1.png'
     }
   }
 }
